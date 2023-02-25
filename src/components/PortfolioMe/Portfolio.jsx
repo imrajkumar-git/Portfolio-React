@@ -18,6 +18,7 @@ import project13 from '../../Assets/project-13.webp';
 import project12 from '../../Assets/project-11.webp';
 import project09 from '../../Assets/project-09.webp';
 import { RiTodoFill } from "react-icons/ri";
+// <!-- Extra css -->
 
 const data = [
     {
@@ -183,7 +184,7 @@ export const Portfolio = () =>{
              <a href="https://www.youtube.com/"><button  className="services-btn" >Hire Me</button></a>
      </Col>
 </Row> */}
-
+{/* 
 <section class="px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="projects">
     <div class="flex items-center justify-center gap-12 pb-12">
       <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
@@ -191,22 +192,22 @@ export const Portfolio = () =>{
       <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
     </div>
 
-    <div>
+    <div> */}
 
 {/* <!-- featured project 01 --> */}
-<div class="flex flex-col sm:flex-row sm:gap-12 mt-20">
+{/* <div class="flex flex-col sm:flex-row sm:gap-12 mt-20"> */}
 
   {/* <!-- left side --> */}
-  <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2	sm:order-none">
+  {/* <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2	sm:order-none">
     <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
       <div class="featured-project-img-01  transition-all	duration-500  ">
         <img src={todeapp}/>
       </div>
     </div>
-  </div>
+  </div> */}
 
   {/* <!-- right side --> */}
-  <div class="sm:w-1/2 h-[300px] flex flex-col justify-center order-1 sm:order-none">
+  {/* <div class="sm:w-1/2 h-[300px] flex flex-col justify-center order-1 sm:order-none">
     <h2 class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">01. To Do Full Stack
       App
     </h2>
@@ -235,12 +236,10 @@ export const Portfolio = () =>{
     </div>
   </div>
 
-</div>
+</div> */}
 
-{/* <!-- featured project 02 --> */}
-<div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+{/* <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
 
-  {/* <!-- right side --> */}
   <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
     <h2 class=" text-3xl font-bold mb-8 sm:relative sm:left-[10%] lg:left-1/4">02. GitHub Profile Finder
     </h2>
@@ -266,7 +265,6 @@ export const Portfolio = () =>{
     </div>
   </div>
 
-  {/* <!-- left side --> */}
   <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
     <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
       <div class="featured-project-img-01  transition-all	duration-500  ">
@@ -275,13 +273,13 @@ export const Portfolio = () =>{
     </div>
   </div>
 
-</div>
+</div> */}
 
 {/* <!-- featured project 03 --> */}
-<div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+{/* <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20"> */}
 
   {/* <!-- left side --> */}
-  <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2 sm:order-none	">
+  {/* <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2 sm:order-none	">
     <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
       <div class="featured-project-img-01  transition-all	duration-500  ">
         <img src={shopify} alt="shopify clone"/>
@@ -290,7 +288,7 @@ export const Portfolio = () =>{
   </div>
 
   {/* <!-- right side --> */}
-  <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+  {/* <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
     <h2 class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">03. Shopify.in Clone
     </h2>
     <p
@@ -316,9 +314,9 @@ export const Portfolio = () =>{
     </div>
   </div>
 
-</div>
+</div> */}
 
-<div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+{/* <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
 
   <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
     <h2 class=" text-3xl font-bold mb-8 sm:relative sm:left-[10%] lg:left-1/4">04. Omnifood</h2>
@@ -342,9 +340,9 @@ export const Portfolio = () =>{
         <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
       </a>
     </div>
-  </div>
+  </div> */}
 
-  <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
+  {/* <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
     <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
       <div class="featured-project-img-01  transition-all	duration-500  ">
         <img src={omifood} alt="omnifood"/>
@@ -355,9 +353,9 @@ export const Portfolio = () =>{
 
 </div>
 
-</div>
+</div>  */}
 
-    <div class="mt-20">
+    {/* <div class="mt-20">
       <h2 class="text-center text-3xl font-semibold">Honorable Mentions</h2>
 
 
@@ -563,9 +561,9 @@ export const Portfolio = () =>{
         </div>
       </div>
 
-    </div>
+    </div> */}
 
-  </section> 
+  {/* </section>  */}
 </>
     )   
 }
