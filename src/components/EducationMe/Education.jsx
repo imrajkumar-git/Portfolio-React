@@ -20,7 +20,7 @@ export const Education = () =>{
         
  
       <section class="skills mtop background2" id="experience">
-      <div class="container flex">
+      <div class="container container2 flex">
         <div class="left">
           <div class="heading">
             <div class="heading_top flex">

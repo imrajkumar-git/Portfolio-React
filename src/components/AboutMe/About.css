@@ -1,6 +1,5 @@
 
 .about__container {
-    
     /* border: 1px solid yellow; */
     padding: .2vw;
     width: 90vw;
@@ -10,7 +9,11 @@
 
 }
 
+/* .about{
 
+    background-image: url(../../Assets/backgound-text.jpeg);
+
+} */
 
 .about__me {
     /* border: 1px solid white; */
@@ -112,7 +115,7 @@
 
 @media screen and (max-width : 724px) {
     .about__content{
-        margin-top: -14rem;
+        margin-top: -10rem;
     }
 }
 @media screen and (max-width : 1224px) {

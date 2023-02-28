@@ -311,7 +311,7 @@ header {
         background: linear-gradient(var(--color-primary), transparent);
         width: 23rem;
         /* border: 1px solid; */
-        height: 34rem;
+        height: fit-content;
         position: absolute;
         left: calc(50% - 11rem);
         /* left: 50%; */
