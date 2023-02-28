@@ -101,8 +101,8 @@ header {
 @media screen and (max-width : 810px) {
     .typetext{
         font-size: 1.2rem;
-        border-radius: 2rem;
-        border: 2px solid black;
+        /* border-radius: 2rem; */
+        /* border: 2px solid black; */
         align-items: center;
         margin-left: 8rem;
         margin-right: 8rem;
@@ -112,8 +112,8 @@ header {
 @media screen and (max-width : 510px) {
     .typetext{
         font-size: 1rem;
-        border-radius: 2rem;
-        border: 2px solid black;
+        /* border-radius: 2rem; */
+        /* border: 2px solid black; */
         align-items: center;
         margin-left: 4rem;
         margin-right: 4rem;
@@ -311,7 +311,7 @@ header {
         background: linear-gradient(var(--color-primary), transparent);
         width: 23rem;
         /* border: 1px solid; */
-        height: 28rem;
+        height: 34rem;
         position: absolute;
         left: calc(50% - 11rem);
         /* left: 50%; */

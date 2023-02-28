@@ -107,7 +107,23 @@
     color: var(--color-light);
 }
 .about__content{
-    margin-top: 10rem;
+    margin-top: 4rem;
+}
+
+@media screen and (max-width : 724px) {
+    .about__content{
+        margin-top: -14rem;
+    }
+}
+@media screen and (max-width : 1224px) {
+    .about__content{
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width : 1624px) {
+    .about__content{
+        margin-top: 4rem;
+    }
 }
 
 .about__content p {

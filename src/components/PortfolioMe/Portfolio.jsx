@@ -3,21 +3,21 @@ import Nykaa from "../../Assets/nykaa.png";
 import Minimalist from "../../Assets/Minimalist.png";
 import TicTacToe from "../../Assets/Tic-Tac-Toe.jpeg";
 import { useTranslation} from 'react-i18next';
-import  './portfolio_style.css';
-import todeapp from '../../Assets/todo-screenshot.png'
-import tictoctoe from '../../Assets/Tic-Tac-Toe.jpeg'
-import gitfinder from '../../Assets/github-finder-screenshot.png';
-import shopify from '../../Assets/shopify.webp';
-import omifood from '../../Assets/omnifood.webp';
-import rodeside from '../../Assets/rode-website-clone.webp';
-import paytm from '../../Assets/paytm-screenshot.webp';
-import project11 from '../../Assets/project-11.webp';
-import project15 from '../../Assets/project-15.webp';
-import project14 from '../../Assets/project-14.webp';
-import project13 from '../../Assets/project-13.webp';
-import project12 from '../../Assets/project-11.webp';
-import project09 from '../../Assets/project-09.webp';
-import { RiTodoFill } from "react-icons/ri";
+// import  './portfolio_style.css';
+// import todeapp from '../../Assets/todo-screenshot.png'
+// import tictoctoe from '../../Assets/Tic-Tac-Toe.jpeg'
+// import gitfinder from '../../Assets/github-finder-screenshot.png';
+// import shopify from '../../Assets/shopify.webp';
+// import omifood from '../../Assets/omnifood.webp';
+// import rodeside from '../../Assets/rode-website-clone.webp';
+// import paytm from '../../Assets/paytm-screenshot.webp';
+// import project11 from '../../Assets/project-11.webp';
+// import project15 from '../../Assets/project-15.webp';
+// import project14 from '../../Assets/project-14.webp';
+// import project13 from '../../Assets/project-13.webp';
+// import project12 from '../../Assets/project-11.webp';
+// import project09 from '../../Assets/project-09.webp';
+// import { RiTodoFill } from "react-icons/ri";
 // <!-- Extra css -->
 
 const data = [
