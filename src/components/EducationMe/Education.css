@@ -383,8 +383,8 @@
     }
 .line3
 {
-    margin-left: 1rem;
-    font-size: 5rem;
+    margin-left: -1rem;
+    font-size: 4rem;
 }
 .line3 p{
     font-size: 0.70rem;
@@ -393,7 +393,7 @@
     color: orangered;
 }
 .line2{
-    font-size: 5rem;
+    font-size: 4rem;
 }
 .line2 p{
     font-size:0.70rem;
