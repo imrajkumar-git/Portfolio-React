@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb3b0918.css",
-    "main.js": "/static/js/main.93541a68.js",
+    "main.css": "/static/css/main.11fa887a.css",
+    "main.js": "/static/js/main.49f71c16.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/resumes.pdf": "/static/media/resumes.dd049000a8aa7afdddf4.pdf",
     "static/media/nykaa.png": "/static/media/nykaa.2807712b99f2734b9176.png",
     "static/media/new3.png": "/static/media/new3.395b7c42206d6d3b45bd.png",
     "static/media/Minimalist.png": "/static/media/Minimalist.a5196ab52c3e69fd07a8.png",
     "static/media/Tic-Tac-Toe.jpeg": "/static/media/Tic-Tac-Toe.09b5f193ceb818a10df5.jpeg",
-    "static/media/todo-screenshot.png": "/static/media/todo-screenshot.942de18912dfccd753f2.png",
     "static/media/rk.png": "/static/media/rk.515ed1512b6d5211f8aa.png",
     "index.html": "/index.html",
-    "main.cb3b0918.css.map": "/static/css/main.cb3b0918.css.map",
-    "main.93541a68.js.map": "/static/js/main.93541a68.js.map",
+    "main.11fa887a.css.map": "/static/css/main.11fa887a.css.map",
+    "main.49f71c16.js.map": "/static/js/main.49f71c16.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb3b0918.css",
-    "static/js/main.93541a68.js"
+    "static/css/main.11fa887a.css",
+    "static/js/main.49f71c16.js"
   ]
 }
