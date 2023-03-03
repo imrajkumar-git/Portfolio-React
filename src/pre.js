@@ -1,6 +1,12 @@
-import React from "react";
-function Pre(props) {
-  return <div id={props.load ? "preloader" : "preloader-none"}></div>;
-}
+import React from 'react';
 
-export default Pre;
+const Preloader = () => {
+  return (
+    <div className="preloader">
+      <span className="preloader__icon"></span>
+      <p className="preloader__text">Loading...</p>
+    </div>
+  );
+};
+
+export default Preloader;

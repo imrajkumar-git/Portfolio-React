@@ -8,7 +8,7 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="icon" href="%PUBLIC_URL%/R.png">
+    <link rel="icon" href="%PUBLIC_URL%/3.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Web site created using create-react-app" />
@@ -37,6 +37,7 @@
 
 
   <!--   owl carousel   -->
+  <link rel="stylesheet" href="../src/loader.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="../src/aos-master/dist/aos.css" />
@@ -49,15 +50,34 @@
     AOS.init();
   </script>
   <!--   owl carousel   -->
-
-
-
-
-
-
-
   </head>
-  <body>
+
+  <body onload="loaded()">
+
+    <div class="loader">
+      <div class="c c1"></div>
+      <div class="c c2"></div>
+      <div class="c c3"></div>
+      <div class="c c4"></div>
+      <div class="c c5"></div>
+      <div class="c c6"></div>
+  </div>
+  <script>
+      let loader = document.querySelector(".loader");
+      function loaded() {
+          loader.classList.add("remove");
+          setTimeout(() => {
+              loader.style.display = "none";
+          }, 1000);
+      }
+  </script>
+  <!-- HAMBURGER MENU BUTTON (responsively visible) -->
+  <div class="hamburger">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+  </div>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
  
