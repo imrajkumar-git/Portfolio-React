@@ -167,7 +167,7 @@ h1 {
 
 section > h2, section > h5 {
   text-align: center;
-  color: var(--color-light);
+  color: var(--dark-light);
 }
 
 section > h2 {
@@ -186,7 +186,7 @@ section {
 }
 
 a {
-  color : var(--color-primary);
+  color : var(--dark-color);
   transition: var(--transition);
 }
 

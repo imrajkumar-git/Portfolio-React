@@ -1533,9 +1533,10 @@ footer .legal {
   margin-left: 75px;
 }
 .content .right-side .topic-text{
-  font-size: 23px;
+  font-size: 33px;
   font-weight: 600;
   color: #3e2093;
+  text-align: center;
 }
 .right-side .input-box{
   height: 50px;
