@@ -30,7 +30,8 @@ const App = () => {
      
     <div className="waterfall-container">
     <div className="app">
-      {loading ? <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div> :<><Header /> <Navbar /> <About /> <Education />  <project/> <services /> <Portfolio /> <Contact /> <Footer /> 
+      {loading ? <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div> :<>
+     <Navbar />   <Header /><About /> <Education />  <project/> <services /> <Portfolio /> <Contact /> <Footer /> 
 </>}
     </div>
     </div>
