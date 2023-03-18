@@ -12,6 +12,7 @@ nav {
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    background-color: gainsboro;
 }
 
 nav a {
@@ -37,6 +38,7 @@ nav a {
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    background-color: none;
   }
   nav a {
     background: transparent;

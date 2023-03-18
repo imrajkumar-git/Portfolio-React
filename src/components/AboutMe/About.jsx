@@ -98,7 +98,7 @@ export const About = ({}) =>{
                     </div>
       
 
-                    <a href="#contact" className="btn btn-primary">{t('lets_begin')}</a>
+                    {/* <a href="#contact" className="btn btn-primary">{t('lets_begin')}</a> */}
                 </div>
 
 {/*              

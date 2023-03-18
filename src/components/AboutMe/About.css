@@ -48,10 +48,6 @@
     /* grid-template-columns: 40%; */
     gap: 1.5rem;
 }
-.about{
-    margin-top: 10rem;
-
-}
 
 .about-heading h1::after{
     position: absolute;
@@ -109,7 +105,7 @@
     font-size: 0.7rem;
     color: var(--color-light);
 }
-.about__content{
+/* .about__content{
     margin-top: 4rem;
 }
 
@@ -127,7 +123,7 @@
     .about__content{
         margin-top: 4rem;
     }
-}
+} */
 
 .about__content p {
     margin: 1rem 0 2.6rem;

@@ -7,8 +7,10 @@ export const CTA = () =>{
 
     return (
         <div className="cta">
-            <a href={Resume} download="rajkumar's resume" className="button">{t('Download Resume')} </a>
-            <a href="#contact" className="button">{t('Hire Me')}</a>
+            <a href={Resume} download="rajkumar's resume"><button className="glow-on-hover" type="button">{t('Download Resume')} </button>
+</a>
+<a href="#contact" >            <button className="glow-on-hover" type="button">{t('Hire Me')}</button>
+</a>
         </div>
     )
 }

@@ -56,9 +56,10 @@ export const Header = () =>{
         // console.log(localStorage.getItem('lang').length)
     },[]);
     return (
-        <header>
-          
-            <div className="container header__container">
+        <>
+                   <section className='hero'>
+
+            <div className="header__container">
          <div className="dropitem">
          <img src={logo} alt="" className="logo"/>
          <select
@@ -78,11 +79,11 @@ export const Header = () =>{
                 </div>
                 <TypeAnimation
       sequence={[
-        'Full Stack Website Developer', // Types 'One'
+        'Full Stack Developer', // Types 'One'
         2000, // Waits 1s
-        'React Dev', // Deletes 'One' and types 'Two'
+        'React Developer', // Deletes 'One' and types 'Two'
         2000, // Waits 2s
-        'App Design', // Types 'Three' without deleting 'Two'
+        'App Designer', // Types 'Three' without deleting 'Two'
         () => {
           console.log('Done typing!'); // Place optional callbacks anywhere in the array
         }
@@ -93,16 +94,17 @@ export const Header = () =>{
       className='typetext'
     />
 
-                <CTA />
+<CTA/>
+<a href="#about">
+<div className="middle">
+    <div className="mouse">
 
-                <HeaderSocial />
+    </div>
+</div>
+</a>
 
-                <div className="me">
-                    <img src={ME} alt="" />
-                </div>
-
-                <a href="#contact" className="scroll__down">   {t('Scroll Down')} </a>
-            </div>
-        </header>
+ </div>
+         </section>    
+        </>
     )
 }
