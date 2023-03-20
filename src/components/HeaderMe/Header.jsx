@@ -1,9 +1,6 @@
 import "./Header.css";
 import { CTA } from "./CTA"
-import { HeaderSocial } from "./HeaderSocials";
-import ME from "../../Assets/new3.png";
 import logo from "../../Assets/rk.png";
-import Typical from 'react-typical'
 import { useState, useEffect } from 'react';
 import i18next from 'i18next';
 import { useTranslation, initReactI18next } from 'react-i18next';

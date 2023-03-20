@@ -3,13 +3,11 @@ import './App.css';
 import 'animate.css';
 
 import {Header} from "./components/HeaderMe/Header";
-import Preloader from '../src/pre';
 import {Navbar} from "./components/NavbarMe/Navbar";
 import {About} from "./components/AboutMe/About";
 import React, { useState } from 'react';
 import {Education} from "./components/EducationMe/Education";
 
-// import {Experience} from "./components/ExperienceMe/Experience";
 
 import {Portfolio} from "./components/PortfolioMe/Portfolio";
 
@@ -31,7 +29,7 @@ const App = () => {
     <div className="waterfall-container">
     <div className="app">
       {loading ? <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div> :<>
-     <Navbar />   <Header /><About /> <Education />  <project/> <services /> <Portfolio /> <Contact /> <Footer /> 
+     <Navbar />   <Header /><About /><Education />  <project/> <services /> <Portfolio /> <Contact /> <Footer /> 
 </>}
     </div>
     </div>

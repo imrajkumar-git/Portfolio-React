@@ -1,5 +1,4 @@
-
-import e from "../../Assets/e.jpg"
+import e from "../../Assets/aboutpic.png"
 import t1 from "../../Assets/t1.png"
 import t2 from "../../Assets/t2.png"
 import t3 from "../../Assets/t3.png"
@@ -60,7 +59,7 @@ export const Experience = () =>{
                 </div>
                 <div class="content content-1">
                   <section>
-                    <i class="icon fas fa-briefcase"></i>
+                    <i class="icon fas fa-profile"></i>
                     <div class="details">
                       <span> Present - 2020</span>
                       <h3>Product Manager / Google</h3>
@@ -71,12 +70,11 @@ export const Experience = () =>{
     
                 <div class="content content-1">
                   <section>
-                    <i class="icon fas fa-graduation-cap"></i>
+                    <i class="icon fas fa-graduation-about"></i>
                     <div class="details">
                       <span> 2016 - 2018</span>
                       <h3>MS Degree / University of Manchester</h3>
                     </div>
-                    <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   </section>
                 </div>
     
@@ -87,7 +85,6 @@ export const Experience = () =>{
                       <span> 2013 - 2016</span>
                       <h3>Lead UI Designer / Apple Inc.</h3>
                     </div>
-                    <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   </section>
                 </div>
     
@@ -98,7 +95,6 @@ export const Experience = () =>{
                       <span> 2009 - 2013</span>
                       <h3>BA Degree / London School of Arts</h3>
                     </div>
-                    <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   </section>
                 </div>
               </div>
