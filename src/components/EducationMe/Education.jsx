@@ -11,7 +11,33 @@ const defaultOptions = {
       preserveAspectRatio: 'xMidYMid slice'
   }
 };
+const skillssection = document.getElementById('progress-bar')
+const progressBars = document.querySelectorAll('.progress-bar')
+function showProgress(){
+  progressBars.forEach(progressBar=>{
+    const value = progressBar.dataset.progress;
+    progressBar.style.opacity = 1;
+    progressBar.style.width= `${value}%`;
+  });
+}
+function hideProgress(){
+  progressBars.forEach(p=>{
+    p.style.opacity=0;
+    p.style.width=0;
 
+  });
+}
+window.addEventListener('scroll',()=>{
+  const sectionPos=skillssection.getBoundingClientRect().top;
+  const screenPos = window.innerHeight/2;
+  if(sectionPos > screenPos){
+showProgress();
+
+  }
+  else{
+hideProgress();
+  }
+})
 
 export const Education = () =>{
   const { t } = useTranslation();
@@ -19,8 +45,8 @@ export const Education = () =>{
     return (
         
  
-      <section class="skills mtop background2" id="experience">
-      <div class="container container2 flex">
+      <section class="skills mtop background2" >
+      <div class="container container2 flex "id="progress-bar">
         <div class="left">
           <div class="heading">
             <div class="heading_top flex">
@@ -32,112 +58,49 @@ export const Education = () =>{
           <div class="text">
             <h3>{t('Every Day is a New Challenge')}</h3>
             <Lottie options={defaultOptions} class='lottie'/> 
-            <a href="https://www.fiverr.com/users/rajkumararyal">            <button class="btn2 btn3">{t('Hire Me')}</button>
-</a>
+            <div className="button">    <a href="https://www.fiverr.com/users/rajkumararyal">            <button className="glow-on-hover" type="button">{t('Hire Me')}</button>
+</a></div>
           </div>
         </div>
   
   
-        <div class="right"   data-aos="fade-up">
+        <div class="right">
                 
 
         <div class="heading_bottom">
-              <h2 text-align='center'>{t('My Skills & Tools')}</h2>
+              <h2 text-align='center'>{t('My Skills')}</h2>
             </div>
-           
-            <div className="line1 grid">
-              <div className="line2">
-              {t('3')}+
-              <p>{t('Years of Experience')}</p>
-
-              </div>
-            <div className="line3">2+
-            <p>{t('Certificates')}</p>
-
-
-            </div>
-            
-             </div>
-             <div className="line1 grid">
-              <div className="line2">
-              {t('17')}+
-              <p>{t('Client Satisfied')}</p>
-
-              </div>
-            <div className="line3">15+
-            <p>{t('Projects Completed')}</p>
-
-            </div>
-            
-             </div>
-          
-          <div class="line_content">
-            <div class="line flex1">
-              <p>ADOBE PHOTOSHOP</p>
-              <div class="bar">
-                <div class="line_bar photo"> </div>
-              </div>
-              <h5>55%</h5>
-            </div>
-  
-            <div class="line">
-              <p>ADOBE ILLUSTRATOR</p>
-              <div class="bar">
-                <div class="line_bar photo"></div>
-              </div>
-              <h5>65%</h5>
-            </div>
-  
-            <div class="line">
-              <p>Django</p>
-              <div class="bar">
-                <div class="line_bar photo"> </div>
-              </div>
-              <h5>65</h5>
-            </div>
-            <div class="line">
-              <p>Python</p>
-              <div class="bar">
-                <div class="line_bar photo"> </div>
-              </div>
-              <h5>55</h5>
-            </div> <div class="line">
-              <p>ReactJs</p>
-              <div class="bar">
-                <div class="line_bar photo"> </div>
-              </div>
-              <h5>65</h5>
-            </div>
-             {/* <div class="line">
-              <p>ADOBE XD</p>
-              <div class="bar">
-                <div class="line_bar photo"> </div>
-              </div>
-              <h5>65</h5>
-            </div>
-            <div class="line">
-              <p>ADOBE XD</p>
-              <div class="bar">
-                <div class="line_bar photo"> </div>
-              </div>
-              <h5>65</h5>
-            </div>
-            <div class="line">
-              <p>ADOBE XD</p>
-              <div class="bar">
-                <div class="line_bar photo"> </div>
-              </div>
-              <h5>65</h5>
-            </div> */}
-          </div>
-  
-  
-          <div class="skill-container flex1">
-          
-  
-           
          
+
+            {/* <div className="progress">
+            <div className="progress-bar" data-progress="70">
+            </div>
+
           </div>
+          <div className="progress">
+            <div className="progress-bar" data-progress="20">
+            </div>
+
+          </div> <div className="progress">
+            <div className="progress-bar" data-progress="90">
+            </div>
+            <h5>85%</h5>
+
+          </div> <div className="progress">
+            <div className="progress-bar" data-progress="100">
+            </div>
+            <h5>55%</h5>
+
+          </div> <div className="progress">
+            <div className="progress-bar" data-progress="90">
+            </div>
+            <h5>55%</h5>
+
+          </div> */}
+
+         
+  
+  
         </div>
         </div>
     </section>

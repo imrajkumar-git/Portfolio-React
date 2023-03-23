@@ -13,10 +13,12 @@ export const Footer = ()  =>{
           <h4>{t('About')}</h4>
           <ul>
             <li>{t('I am a full stack website Developer! Feel free to get in touch with me.')}</li>
-           {/* <h2>Start a Project</h2> */}
             <h3>{t('I’m available for freelance projects')}</h3>
-            <a href=""><button class="btn4 btn3">{t('Click Here')}</button>
+            <div className="button">
+            <a href=""><button className="glow-on-hover" type="button">{t('Click Here')}</button>
 </a>
+            </div>
+     
            
           </ul>
         </div>
@@ -31,24 +33,7 @@ export const Footer = ()  =>{
           </ul>
         </div>
 
-        {/* <div class="box3">
-          <h4>Resources</h4>
-          <ul>
-            <li>Case Studies</li>
-            <li>Blog</li>
-            <li>I'm a Clients</li>
-          </ul>
-        </div>
-
-        <div class="box4">
-          <h4>Company</h4>
-          <ul>
-            <li>About Us</li>
-            <li>Careers</li>
-            <li>Newsroom</li>
-            <li>Contact Us</li>
-          </ul>
-        </div> */}
+    
 
         <div class="box">
         <h4>{t('Contact')}</h4>

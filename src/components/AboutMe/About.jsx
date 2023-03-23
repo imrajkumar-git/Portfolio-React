@@ -33,10 +33,7 @@ import {
   SiXampp,
 } from "react-icons/si";
 import GitHubCalendar from "react-github-calendar"
-import Laptop from '../../Assets/lemondev.json'
 import { useTranslation} from 'react-i18next';
-
-
   AOS.init();
   AOS.init({
     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
@@ -59,6 +56,21 @@ import { useTranslation} from 'react-i18next';
     anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
   
   });  
+
+let valueDisplays = document.querySelectorAll(".num");
+let interval = 4000;
+valueDisplays.forEach((valueDisplay) => {
+  let startValue = 0;
+  let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+  let duration = Math.floor(interval / endValue);
+  let counter = setInterval(function () {
+    startValue += 1;
+    valueDisplay.textContent = startValue;
+    if (startValue == endValue) {
+      clearInterval(counter);
+    }
+  }, duration);
+});
 export const About = ({}) =>{
   const animation = useSpring({
     from: { opacity: 0 },
@@ -71,16 +83,12 @@ export const About = ({}) =>{
       
         <>
         <section className='about' id ="about" data-aos='fade-up'>
-         
-         
-     
         <section id="experience">
         <div class="experience background2">
         <div class="container">
           <div class="heading center">
             <div class="heading_top flex">
               <div class="line"></div>
-              <h3> About & Intro</h3>
               <div class="line"></div>
 
             </div>
@@ -164,7 +172,7 @@ data-aos="fade-up" className='contentabout'>
                   <img src={val.cover} alt='' />
                 </div>
                 <div className='text'>
-                  <h1>{val.data}</h1>
+               <h1><span class="num" data-val={val.data}>{val.data} +</span></h1> 
                   <h3>{val.title}</h3>
                 </div>
               </div>
@@ -214,7 +222,7 @@ data-aos="fade-up" className='contentabout'>
     
     </Row>
         </section>
-        <section class='tools'>
+        <section class='tools' >
         <h1>{t('Tools I Used')}</h1>
 
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}    data-aos="fade-up">

@@ -1,129 +1,90 @@
-#portfolio {
-    
-    /* border: 1px solid yellow; */
-    height: fit-content;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-}
 
-.portfolio__container {
-
-    width: 100vw;
-    /* border: 1px solid yellow; */
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 2rem;
-}
-
-.portfolio__item {
-    background: transparent;
-    padding: 1.2rem;
-    border-radius: 2rem;
-    margin-top: 2rem;
-
-    border: 1px solid white;
-    transition: var(--transition);
-}
-
-.portfolio__item:hover {
-    border-color:orangered;
-    color: rgb(13, 11, 11);
-    
-}
-
-
-
-.portfolio__item-image {
-    border-radius: 1.5rem;
-    overflow: hidden;
-}
-
-.portfolio__item h3 {
-    font-size: 1vw;
-    text-align: justify;
-    margin: 1.2rem 0 1rem;
-}
-
-.portfolio__item h4 {
-    text-align: justify;
-    font-size: 1vw;
-    margin: 1rem 0 1rem;
-}
-
-.portfolio__item-cta {
-    /* border: 1px solid; */
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-
-
-
-/* ---------------- Media Queries (Medium Devices) -------------- */
-
-@media screen and (max-width : 1024px) {
-    .portfolio__container {
-        grid-template-columns: 1fr ;
-        gap: 1rem;
-    }
-    .portfolio__item h3 {
-        /* border: 1px solid; */
-        font-size: 1.5vw;
-        text-align: justify;
-        margin: 1.2rem 0 1rem;
-    }
-    
-    .portfolio__item h4 {
-        /* border: 1px solid; */
-        text-align: justify;
-        font-size: 1.5vw;
-        margin: 1rem 0 1rem;
-    }
-}
-
-/* ----------------- Media Queries (Small Devices) ----------- */
-
-
-
-@media screen and (max-width : 600px) {
-    .portfolio__container {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-    .portfolio__item {
-        padding: 3.5vw;
-        border-radius: 2rem;
-        border: 1px solid transparent;
-        transition: var(--transition);
-        margin-top: 1rem;
-    }  
-    .portfolio__item-image {
-        border-radius: 1.5rem;
-        overflow: hidden;
-    }
-    .portfolio__item-cta {
-        /* border: 1px solid; */
-        display: flex;
-        gap: 1rem;
-        margin-bottom: 1rem;
-    }
-    
-    .portfolio__item h3 {
-        /* border: 1px solid; */
-        font-size: 3vw;
-        text-align: justify;
-        margin: 1.2rem 0 1rem;
-    }
-    
-    .portfolio__item h4 {
-        /* border: 1px solid; */
-        text-align: justify;
-        font-size: 3vw;
-        margin: 1rem 0 1rem;
-    }
-}
 
 /* Section page css */
 .section{
     display: flex;
+}
+
+
+.price .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+.price .shadow {
+    box-shadow: 0 5px 10px #535da1;
+}
+.price .shadow span{
+    color: #000;
+}
+.price .outline-btn {
+    margin: 0;
+    box-shadow: none;
+    border: 2px solid #1eb2a6;
+    width: 100%;
+    transition: 0.5s;
+}  
+.price .items {
+    padding: 40px;
+    text-align: center;
+  }
+  .price h1 {
+    font-size: 50px;
+    margin: 20px 0;
+    color: #1eb2a6;
+  }
+  .price h1 span {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #000;
+  }
+  .price p {
+    color: grey;
+    margin: 40px 0;
+  }
+  /*--------------faq-------------*/
+  .faq .container {
+    max-width: 70%;
+    border-radius: 5px;
+  }
+  .faq .box {
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  .faq h2 {
+    font-weight: 500;
+  }
+  .faq p {
+    padding: 20px;
+  }
+  .faq .accordion:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+  }
+  .price h1 span{
+    font-size: 45px;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: rgba(103, 15, 234, 0.883);
+
+  }
+  .dollar{
+    font-size: 45px;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: #000;
+  }
+  
+  /*--------------faq-------------*/
+  @media screen and (max-width: 968px){
+  .price .grid {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .price h1 span{
+    font-size: 35px;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: rgba(103, 15, 234, 0.883);
+
+  }
 }

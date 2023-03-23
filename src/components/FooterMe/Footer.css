@@ -247,47 +247,6 @@ footer{
 }
 
 
-button {
-  border: none;
-  background: white;
-  padding: 15px 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 15px;
-  border-radius: 5px;
-  transition: 0.5s;
-  cursor: pointer;
-  color: black;
-}
-
-.btn2 {
-  background: #20C863;
-  color: white;
-  margin-left: 4rem;
-}
-.btn4{
-  background: #20C863;
-  color: white;
-}
-
-.btn1:hover {
-  background: black;
-  color: #fff;
-  border: 2px solid #fff;
-}
-.btn4:hover {
-  background: white;
-  color: #20C863;
-  border: 2px solid #20C863;
-}
-.btn2:hover {
-  background: white;
-  color: #20C863;
-  border: 2px solid #20C863;
-}
-
-
-
 
 /*---------home--------*/
 /*---------about--------*/
@@ -439,6 +398,9 @@ footer .legal {
 .content h4{
   font-size: 1.3rem;
 }
+.box1 .button{
+  margin-top: 1rem;
+ }
 
 /*---------footer--------*/
 @media only screen and (max-width:1068px) {
@@ -476,7 +438,9 @@ footer .legal {
   .home button {
     margin-top: 20px;
   }
-
+ .box1 .button{
+  margin-top: 2rem;
+ }
   /*---------home--------*/
   /*---------about--------*/
   .about .container {

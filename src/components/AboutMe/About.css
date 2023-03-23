@@ -508,9 +508,6 @@
 .tools a:hover{
     color:black;
 }
-
-
-
 .aboutHome {
     height: auto;
   }
@@ -690,6 +687,18 @@
         border-radius: var(--border-radius-medium);
     
     
+    }
+    .awrapper h1 {
+      font-size: 16px;
+      color: black;
+  
+    }
+    .awrapper h3 {
+      font-size: 14px;
+      font-weight: 500;
+      color: black;
+      text-transform: uppercase;
+  
     }
 
   }

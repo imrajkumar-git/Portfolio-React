@@ -1,13 +1,11 @@
 
 import "./Navbar.css"
-
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBookBookmark } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { AiFillMessage } from "react-icons/ai";
-import { MdCastForEducation, MdWorkspacesFilled } from "react-icons/md"
-
+import {MdWorkspacesFilled } from "react-icons/md"
 import { useState } from "react";
 
 export const Navbar = () =>{
@@ -16,7 +14,7 @@ export const Navbar = () =>{
 
     return (
         <nav>
-            <a href="#" title="Home" onClick={() => setActiveNav("#")} className={activeNav === "#" ? "active" : ""}><AiOutlineHome /></a>
+            <a href="#" title="Home" onClick={() => setActiveNav("#")} ><AiOutlineHome /></a>
             <a href="#about" title="About" onClick={() => setActiveNav("#about")} className={activeNav === "#about" ? "active" : ""}><AiOutlineUser /></a>
             <a href="#skills" title="Skills" onClick={() => setActiveNav("#skills")} className={activeNav === "#skills" ? "active" : ""}><MdWorkspacesFilled /></a>
             <a href="#experience" title="Experience or my skills" onClick={() => setActiveNav("#experience")} className={activeNav === "#experience" ? "active" : ""}><BiBookBookmark /></a>

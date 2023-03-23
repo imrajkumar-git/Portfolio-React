@@ -51,34 +51,6 @@ header {
     gap: 2.2rem;
     justify-content: center;
 }
-.cta .button{
-    border-radius: 40px;
-    border: 2px solid;
-    text-align: center;
-    font-size: 1rem;
-    width: 10px;
-    background-color: #50b5ff;
-    height: 46px;
-    width: 11rem;
-    padding-top: 8px;
-    font-weight: 400;
-    color: black;
-    border: 1px solid white;
-}
-.cta .button:hover{
-    border-radius: 40px;
-    border: 2px solid;
-    text-align: center;
-    font-size: 1rem;
-    width: 10px;
-    background-color: #627888;
-    height: 46px;
-    width: 11rem;
-    padding-top: 8px;
-    font-weight: 400;
-    color: black;
-    border: 1px solid white;
-}
 
 /* ------------- HeaderSocials -------------*/
 
@@ -148,6 +120,7 @@ header {
     } 
     
     
+    
 }
 .header-containeer{
     width: 85%;
@@ -157,7 +130,7 @@ header {
     margin: auto;}
 .middle{
     position: absolute;
-    top: 85%;
+    top: 83%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -175,7 +148,7 @@ header {
     height: 25px;
     position: absolute;
     top: 30px;
-    background: #e5e2eb;
+    background: #0d0d0d;
     
     left: 50%;
     transform: translate(-50%, -50%);
@@ -194,6 +167,7 @@ header {
 
     }
 }
+
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 23rem;

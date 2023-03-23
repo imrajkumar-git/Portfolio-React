@@ -3,6 +3,9 @@ import client from '../Assets/client.svg'
 import cup from '../Assets/mug-hot-solid.svg'
 import years from '../Assets/years.svg'
 import project from '../Assets/projects.svg'
+import b1 from '../Assets/b1.webp'
+import b2 from '../Assets/b2.webp'
+import b3 from '../Assets/b3.webp'
 
 export const homeAbout = [
 
@@ -19,23 +22,23 @@ export const awrapper = [
   {
     cover: cup,
 
-    data: "3,000 +",
+    data: "3000",
     title: "Cup of Tea",
   },
 
   {
     cover: client,
-    data: "120 +",
+    data: "120",
     title: "Client Satisfied",
   },
   {
     cover: years,
-    data: "3 +",
+    data: "3",
     title: "Years of Experience",
   },
   {
     cover: project,
-    data: "33 +",
+    data: "33",
     title: "Project Completed",
   },
 
@@ -340,7 +343,7 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b1.webp",
+    cover: b1,
   },
   {
     id: 2,
@@ -349,7 +352,7 @@ export const blog = [
     com: "5 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b2.webp",
+    cover: b2,
   },
   {
     id: 3,
@@ -358,35 +361,9 @@ export const blog = [
     com: "10 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b3.webp",
+    cover: b3,
   },
-  {
-    id: 4,
-    type: "admin",
-    date: "JAN. 02, 2022",
-    com: "3 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b4.webp",
-  },
-  {
-    id: 5,
-    type: "admin",
-    date: "DEC. 14, 2022",
-    com: "3 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b5.webp",
-  },
-  {
-    id: 6,
-    type: "user",
-    date: "JAN. 18, 2021",
-    com: "12 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b6.webp",
-  },
+ 
 ]
 export const testimonal = [
   {
