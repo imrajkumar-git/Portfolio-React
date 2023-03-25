@@ -17,8 +17,8 @@ const Button = styled.button`
 background-color: ${({ theme }) => theme.background};
 border: 2px solid ${({ theme }) => theme.background};
 color: ${({ theme }) => theme.text};
-width: 70px;
-height: 70px;
+width: 60px;
+height: 60px;
 outline: none;
 border-radius: 50%;
 transition: all 0.1s ease-in-out;
@@ -27,8 +27,8 @@ text-align: center;
 position: fixed;
 cursor: pointer;
 right: 10px;
-bottom: 9rem;
-background-color:#ef2f1c;
+bottom: 10rem;
+background-color:#FF5D0A;
 box-shadow:
 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
