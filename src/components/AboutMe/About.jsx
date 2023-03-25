@@ -80,7 +80,6 @@ export const About = ({}) =>{
   const { t } = useTranslation();
 
     return (
-      
         <>
         <section className='about' id ="about" data-aos='fade-up'>
         <section id="experience">
@@ -182,8 +181,9 @@ data-aos="fade-up" className='contentabout'>
       </section>
         </section>
         <section className='skills' id='skills'>
-  
-          <h1>{t('Professional Skillset')}</h1>
+        <div class="heading_bottom">
+              <h2><span>{t('Professional Skillset')}</span></h2>
+            </div>
 
           
           <Row style={{ justifyContent: "center", paddingBottom: "50px" }}   data-aos="fade-up">
@@ -223,8 +223,9 @@ data-aos="fade-up" className='contentabout'>
     </Row>
         </section>
         <section class='tools' >
-        <h1>{t('Tools I Used')}</h1>
-
+        <div class="heading_bottom">
+              <h2><span>{t('Tools I Used')} </span></h2>
+            </div>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}    data-aos="fade-up">
                 
 
@@ -266,9 +267,9 @@ data-aos="fade-up" className='contentabout'>
       </Col>
     </Row>
     <div className="github-calender">
-    <h1 className="project-heading" style={{ paddingBottom: "20px"}}>
-        {t('Days I Code')}
-      </h1>
+        <div class="heading_bottom">
+              <h2><span>{t('Days I Code')}</span></h2>
+            </div>
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                 
 

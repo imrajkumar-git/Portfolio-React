@@ -312,7 +312,7 @@
 
 /* custom css */
 .translate_text{
-    color:rgb(16, 16, 17);
+    color:grey;
     text-align: justify;
 }
 
@@ -431,6 +431,7 @@
 }
 .profile-span-name{
   margin-left: 9rem;
+  color: grey;
 }
 .profile-span-email{
   margin-left: 9rem;
@@ -754,4 +755,7 @@
           width:15rem;
           height: 26rem;    }
 
+  }
+.heading_bottom{
+    font-size: 35px;
   }

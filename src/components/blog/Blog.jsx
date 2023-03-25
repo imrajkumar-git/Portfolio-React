@@ -6,10 +6,9 @@ export const Blog = () => {
   return (
     <>
       <section className='blog padding'>
-      <div class="heading center">
-      
-      <h1><span>My Blogs </span></h1>
-  </div>
+      <div class="heading_bottom">
+              <h2>My blogs </h2>
+            </div>
         <div className='container grid2'>
           
           <BlogCard />

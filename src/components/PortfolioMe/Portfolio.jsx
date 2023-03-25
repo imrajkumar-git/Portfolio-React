@@ -33,10 +33,9 @@ export const Portfolio = () => {
   return (
     <>
       <section className='price padding'>
-      <div class="heading center">
-      
-              <h1><span>Pricing & Packages </span></h1>
-          </div>
+     <div class="heading_bottom">
+              <h2><span>Pricing & Packages </span></h2>
+            </div>
         <div className='container price grid'>
           <PriceCard />
         </div>

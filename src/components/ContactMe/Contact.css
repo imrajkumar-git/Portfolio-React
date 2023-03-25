@@ -4,6 +4,7 @@
 }
 .contact h2{
   text-align: center;
+  font-size: 35px;
 }
 .contact h2::after{
   width: 20px;
@@ -666,11 +667,16 @@ footer .legal {
 }
 
 .input-wrapper { position: relative; }
-
+.input-wrapper ::placeholder {
+  color: gray;
+}
+.message-box ::placeholder {
+  color: gray;
+}
 .input-field {
   background: var(--input-bg);
-  color: var(--raw-seinna);
   padding: 10px;
+  color: gray;
   padding-left: 40px;
   border-radius: var(--radius-12);
   transition: var(--transition-1);
@@ -692,10 +698,10 @@ textarea.input-field {
   resize: vertical;
 }
 
-.input-field:focus { 
+/* .input-field:focus { 
   outline: 1px solid red;
   outline: 50%;
- }
+ } */
 
 .input-field:focus + ion-icon { color: var(--raw-seinna); }
 

@@ -64,6 +64,8 @@
 
     "react-spring": "^9.6.1",
 
+    "react-switch": "^7.0.0",
+
     "react-type-animation": "^2.1.2",
 
     "react-typical": "^0.1.3",

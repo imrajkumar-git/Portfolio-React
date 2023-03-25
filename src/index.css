@@ -20,8 +20,6 @@ html {
 * {
   margin: 0;
   padding: 0;
-  border: 0;
-  outline: 0;
   box-sizing: border-box;
   list-style: none;
   
@@ -174,7 +172,7 @@ section {
 }
 
 a {
-  color : var(--dark-color);
+  color : grey;
   transition: var(--transition);
 }
 

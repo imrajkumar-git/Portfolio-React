@@ -18,10 +18,9 @@ export const Contact = () =>{
     return (
       
   <section class="contact top" id="contact">
-        <div class="heading center">
-      
-      <h1><span>Contact Me</span></h1>
-  </div>
+      <div class="heading_bottom">
+              <h2><span>Contact Me </span></h2>
+            </div>
     <div class="container2">
     <div class="content">
       <div class="left-side">
@@ -82,7 +81,7 @@ export const Contact = () =>{
                                                 id="name" ></textarea>
         </div>
         <div class="button">
-        <button className="glow-on-hover" type="button">{t('Submit')}</button>
+        <button className="glow-on-hover">{t('Submit')}</button>
         </div>
       </form>
       </div>
