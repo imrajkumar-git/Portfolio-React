@@ -403,15 +403,13 @@
 }
 .profile-small-title {
   border-right: 1px solid #e9eaeb;
-  border-right: 1px solid var(--border-color);
   color: #ff5003;
-  color: var(--secondary-color);
   display: inline-block;
-  font-weight: 700;
-  font-weight: var(--font-weight-bold);
+  font-weight: 500;
   margin-right: 10px;
   min-width: 170px;
-  padding: 13px 30px;
+  padding: 10px 20px;
+  text-transform: uppercase;
 }
 .profile_title p{
   color: #717275;

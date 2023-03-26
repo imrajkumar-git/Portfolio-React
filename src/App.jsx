@@ -26,7 +26,18 @@ const App = () => {
   return (
     <div className="waterfall-container">
     <div className="app">
-      {loading ? <div class="lds-roller"><div>R</div><div>A</div><div>J</div><div>K</div><div>U</div><div>M</div><div>A</div><div>R</div></div> :<>
+      {loading ?   <div class="loading"> 
+    <div class="loading__letter">L</div>
+    <div class="loading__letter">o</div>
+    <div class="loading__letter">a</div>
+    <div class="loading__letter">d</div>
+    <div class="loading__letter">i</div>
+    <div class="loading__letter">n</div>
+    <div class="loading__letter">g</div>
+    <div class="loading__letter">.</div>
+    <div class="loading__letter">.</div>
+    <div class="loading__letter">.</div>
+  </div> :<>
      <Navbar />  <ThemeProvider theme={themeMode} toggleTheme={themeToggler}>
           <GlobalStyles />
           <Toggle theme={theme} toggleTheme={themeToggler} />

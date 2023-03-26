@@ -26,7 +26,7 @@ color: white;
 text-align: center;
 position: fixed;
 cursor: pointer;
-right: 10px;
+right: 29px;
 bottom: 10rem;
 background-color:#FF5D0A;
 box-shadow:

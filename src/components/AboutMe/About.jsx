@@ -120,13 +120,17 @@ export const About = ({}) =>{
         <p><span class="profile-small-title">Education</span><span className="profile-span-name">Computer Engineering</span></p>
         <p><span class="profile-small-title">Blood Group</span><span className="profile-span-name">O Positive</span></p>
         <p><span class="profile-small-title">Fav Country</span><span className="profile-span-name">Switzerland</span></p>
-        {/* <p><span class="profile-small-title">Fav </span><span className="profile-span-name">Nepali</span></p>
+        <p><span class="profile-small-title">Fav </span><span className="profile-span-name">Nepali</span></p>
+        {/* <p><span class="profile-small-title">Nationality</span><span className="profile-span-name">Nepali</span></p>
+        <p><span class="profile-small-title">Nationality</span><span className="profile-span-name">Nepali</span></p>
         <p><span class="profile-small-title">Nationality</span><span className="profile-span-name">Nepali</span></p> */}
 
         
         </div>
+        
          
                 </div>
+                
                 </div>
     
                 <div class="line">
