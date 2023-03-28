@@ -391,7 +391,7 @@ footer .legal {
   border:1px solid black;
 }
 .box2 li:hover{
-  background-color: rgb(219, 64, 17);
+  background-color: rgb(215, 55, 6);
   color: #e4e8eb;
 }
 
@@ -568,6 +568,7 @@ footer .legal {
     flex-wrap: wrap;
   }
 
+
   /*---------skills--------*/
   /*---------contact--------*/
   .contact .input {
@@ -606,6 +607,15 @@ footer .legal {
   .legal-box1{
   display: none;
   }
+  .p-7{
+    padding: 0.99rem;
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  .p-7 i{
+    width: 3rem;
+    margin-left: 0px;
+  }
 
   /*---------social_media--------*/
 }
@@ -632,4 +642,13 @@ footer .legal {
   width: 100%;
 }
 
+}
+
+.p-7{
+  padding: 0.99rem;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+.p-7 i{
+  margin-left: 3px;
 }

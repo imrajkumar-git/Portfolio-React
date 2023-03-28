@@ -1,6 +1,4 @@
 import "./About.css"
-import { AiFillGitlab } from "react-icons/ai";
-import { FaSlack } from "react-icons/fa";
 import { Col, Row } from "react-bootstrap";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -8,30 +6,21 @@ import React from "react";
 import { useSpring} from "react-spring";
 import ME from "../../Assets/aboutpic.png";
 import { awrapper } from "../dummydata";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiDjango
-} from "react-icons/di";
-import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
-} from "react-icons/si";
-import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
-  SiVercel,
-  SiPostgresql,
-  SiPycharm,
-  SiAndroidstudio,
-  SiXampp,
-} from "react-icons/si";
+import html from "../../Assets/Skills/html.png"
+import css from "../../Assets/Skills/css.png"
+import JavaScript from "../../Assets/Skills/javascript.png"
+import tailwand from "../../Assets/Skills/tailwind.png"
+import bootstrap from "../../Assets/Skills/bootstrap.png"
+import materialui from "../../Assets/Skills/materialui.png"
+import react from "../../Assets/Skills/react.png"
+import python from "../../Assets/Skills/python.png"
+import django from "../../Assets/Skills/django.png"
+import nextjs from "../../Assets/Skills/nextjs.png"
+import vscode from "../../Assets/Skills/visualstudio.png"
+import pgadmin from "../../Assets/Skills/pgadmin.png"
+import postman from "../../Assets/Skills/postman.png"
+import command from "../../Assets/Skills/command.png"
+import androidstudio from "../../Assets/Skills/androidstudio.png"
 import GitHubCalendar from "react-github-calendar"
 import { useTranslation} from 'react-i18next';
   AOS.init();
@@ -124,11 +113,7 @@ export const About = ({}) =>{
         {/* <p><span class="profile-small-title">Nationality</span><span className="profile-span-name">Nepali</span></p>
         <p><span class="profile-small-title">Nationality</span><span className="profile-span-name">Nepali</span></p>
         <p><span class="profile-small-title">Nationality</span><span className="profile-span-name">Nepali</span></p> */}
-
-        
         </div>
-        
-         
                 </div>
                 
                 </div>
@@ -188,41 +173,61 @@ data-aos="fade-up" className='contentabout'>
         <div class="heading_bottom">
               <h2><span>{t('Professional Skillset')}</span></h2>
             </div>
-
-          
           <Row style={{ justifyContent: "center", paddingBottom: "50px" }}   data-aos="fade-up">
-              
-                
-      <Col xs={4} md={2} className="tech-icons" >
-        <DiDjango />
+          <Col xs={4} md={2} className="tech-icons" data-aos='fade-up'>
+     <div className='m-auto grid grid-cols-2'>
+                <img src={html}  alt='/' />
+                <h3>HTML</h3>
+
+              </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons" data-aos='fade-up'>
-        <DiJavascript1 />
+      <div className='m-auto grid grid-cols-2'>
+                <img src={css}  alt='/' />
+                <h3>CSS</h3>
+
+              </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons" data-aos='fade-up'>
-        <DiNodejs />
+      <div className='m-auto grid grid-cols-2'>
+                <img src={JavaScript}  alt='/' />
+                <h3>JAVASCRIPT</h3>
+
+              </div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-aos='fade-up'>
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" data-aos='fade-up'>
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" data-aos='fade-up'>
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" data-aos='fade-up'>
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" data-aos='fade-up'>
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" data-aos='fade-up'>
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" >
-        <SiPytorch />
-      </Col>
+              <Col xs={4} md={2} className="tech-icons " data-aos='fade-up'>
+      <div className='m-auto grid'>
+                <img src={materialui}  alt='/' />
+                <h3>MATERIALUI</h3>
+              </div>      
+              </Col> <Col xs={4} md={2} className="tech-icons " data-aos='fade-up'>
+      <div className='m-auto grid'>
+                <img src={bootstrap}  alt='/' />
+                <h3>BOOTSTRAP</h3>
+              </div>      </Col>
+              <Col xs={4} md={2} className="tech-icons " data-aos='fade-up'>
+      <div className='m-auto grid'>
+                <img src={tailwand}  alt='/' />
+                <h3>TAILWANDCSS</h3>
+              </div>      </Col> <Col xs={4} md={2} className="tech-icons " data-aos='fade-up'>
+      <div className='m-auto grid'>
+                <img src={react}  alt='/' />
+                <h3>REACT</h3>
+              </div>      </Col> <Col xs={4} md={2} className="tech-icons " data-aos='fade-up'>
+      <div className='m-auto grid'>
+                <img src={nextjs}  alt='/' />
+                <h3>NEXTJS</h3>
+              </div>      </Col> 
+              <Col xs={4} md={2} className="tech-icons " data-aos='fade-up'>
+      <div className='m-auto grid'>
+                <img src={python}  alt='/' />
+                <h3>PYTHON</h3>
+              </div>      </Col>
+              <Col xs={4} md={2} className="tech-icons " data-aos='fade-up'>
+      <div className='m-auto grid'>
+                <img src={django}  alt='/' />
+                <h3>DJANGO</h3>
+              </div>      </Col> 
     
     </Row>
         </section>
@@ -232,43 +237,31 @@ data-aos="fade-up" className='contentabout'>
             </div>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}    data-aos="fade-up">
                 
-
-  <Col xs={4} md={2} className="tech-icons">
-        <SiAndroidstudio />
-      </Col>
-   
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      
-     
-   <Col xs={4} md={2} className="tech-icons" id='git'>
-        <AiFillGitlab />
-      
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" id='git'>
-        <SiXampp />
-      
-      </Col>
-   <Col xs={4} md={2} className="tech-icons" id='git'>
-        <FaSlack />
-      
-      </Col>
-   <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
- <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-    <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-      </Col>
-    <Col xs={4} md={2} className="tech-icons">
-        <SiPycharm />
-      </Col>
+        <Col xs={4} md={2} className="tech-icons " data-aos='fade-up'>
+      <div className='m-auto grid'>
+                <img src={vscode}  alt='/' />
+                <h3>DJANGO</h3>
+              </div>      </Col> 
+              <Col xs={4} md={2} className="tech-icons " data-aos='fade-up'>
+      <div className='m-auto grid'>
+                <img src={pgadmin}  alt='/' />
+                <h3>DJANGO</h3>
+              </div>      </Col> 
+              <Col xs={4} md={2} className="tech-icons " data-aos='fade-up'>
+      <div className='m-auto grid'>
+                <img src={postman}  alt='/' />
+                <h3>DJANGO</h3>
+              </div>      </Col> 
+              <Col xs={4} md={2} className="tech-icons " data-aos='fade-up'>
+      <div className='m-auto grid'>
+                <img src={androidstudio}  alt='/' />
+                <h3>DJANGO</h3>
+              </div>      </Col> 
+              <Col xs={4} md={2} className="tech-icons " data-aos='fade-up'>
+      <div className='m-auto grid'>
+                <img src={command}  alt='/' />
+                <h3>DJANGO</h3>
+              </div>      </Col> 
     </Row>
     <div className="github-calender">
         <div class="heading_bottom">

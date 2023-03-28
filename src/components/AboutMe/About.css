@@ -287,7 +287,6 @@
     .tech-icons {
         font-size: 4.5em !important;
         margin: 15px !important;
-        padding: 10px !important;
         opacity: 0.93 !important;
         border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
         vertical-align: middle !important;
@@ -314,6 +313,13 @@
 .translate_text{
     color:grey;
     text-align: justify;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-text-opacity));
+
+
+
 }
 
 .contact-heading h1::after{
@@ -338,8 +344,8 @@
 .tech-icons {
     font-size: 4.5em !important;
     width: 250px;
+    height: 100px;
     margin: 15px !important;
-    padding: 10px !important;
     opacity: 0.93 !important;
     border: 1.7px solid #ffff !important;
     vertical-align: middle !important;
@@ -350,7 +356,20 @@
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
   }
-  
+.tech-icons img{
+  box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    max-width: 100%;
+}
 .tech-icons1 p {
     font-size:0.99rem;
     text-align: justify;
@@ -476,13 +495,7 @@
     font-weight: 900;    
 }
 
-.skills a{
-    text-decoration: none;
-    color: white;
-}
-.skills a:hover{
-    color:black;
-}
+
 .tools .row{
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
@@ -757,3 +770,65 @@
 .heading_bottom{
     font-size: 35px;
   }
+
+
+  .ease-in {
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+.duration-300 {
+  transition-duration: 300ms;
+}
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+.gap-4 {
+  gap: 1rem;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid {
+  display: grid;
+}
+.m-auto {
+  margin: auto;
+  margin-top: 1rem;
+}
+.m-auto img{
+  width: 4rem;
+  margin-left: 1rem;
+}
+.m-auto h3{
+  font-size: 14px;
+  margin-right: 1rem;
+  margin-top: 1em
+}
+@media screen and (max-width : 600px) {
+  .m-auto {
+    margin: auto;
+    margin-top: 1.4rem;
+  }
+  .m-auto img{
+    width: 4rem;
+  }
+  .m-auto h3{
+    font-size: 10px;
+    margin-top: 1em
+  }
+  
+}

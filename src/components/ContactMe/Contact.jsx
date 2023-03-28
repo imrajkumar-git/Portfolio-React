@@ -1,8 +1,8 @@
-
 import "./Contact.css"
 import "./owl.carousel.css"
 import Laptop from '../../Assets/laptop.json'
 import Lottie from 'react-lottie'
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import { useTranslation} from 'react-i18next';
 const defaultOptions = {
     loop: true,
@@ -29,57 +29,56 @@ export const Contact = () =>{
       <div class="right-side">
       <div class="form-wrapper">
 
-        <div class="topic-text">Send us a message</div>
+        {/* <div class="topic-text">Send us a message</div> */}
         <form class="mtop"  action="https://getform.io/f/adf100fd-4902-43e8-82c9-38203d1b0594" method="POST">
-        <div class="form-wrapper">
-
-
-  <div class="input-wrapper">
-
-    <input type="text" name="name" id="name" required placeholder={t("Enter your First Name")} class="input-field"/>
-
-
-  </div>
-
-</div>
-<div class="form-wrapper">
-
-        <div class="input-wrapper">
-
-          <input type="text" class="input-field" placeholder={t('Enter Your Last Name')}
- name="Last_Name"
- id="Last_Name"
- required
- autoComplete='off'/>
-        </div>
-        </div>
-        <div class="form-wrapper">
-
-          <div class="input-wrapper">
-
-          <input className="input-field" type="email"  placeholder={t('Enter your Email Address')}
-                                                name="Email"
+      
+                <div className='grid md gap-4 w-full py-2'>
+                  <div className='flex flex-col'>
+                    <label className='uppercase text-sm py-2'>Enter your Full Name</label>
+                    <input
+                      className='border-2 rounded-lg p-3 flex border-gray-300'
+                      type='text'
+                      name='name'
+                      id="name"
+                      required
+                    />
+                  </div>
+                  <div className='flex flex-col'>
+                    <label className='uppercase text-sm py-2'>
+                      Enter your Email Address
+                    </label>
+                    <input
+                      className='border-2 rounded-lg p-3 flex border-gray-300'
+                      type='text'
+                      name="Email"
+                      
                                                 id="email"
                                                 pattern="[^ @]*@[^ @]*"
                                                 required
-                                                autoComplete='off'/>
-        </div>
-        </div>
-        <div class="form-wrapper">
-        <div class="input-wrapper">
-
-          <input type="number" class="input-field" placeholder={t('Enter your Phone Number')}
-                                                name="Phone-number"
-                                                id="phone_number"
                                                 autoComplete='off'
-                                                required />
-                                                </div>
-                                                </div>
-        <div class="message-box">
+                    />
+                  </div>
+                </div>
+                 <div className='flex flex-col py-2'>
+                  <label className='uppercase text-sm py-2'>Enter your Phone Number</label>
+                  <input
+                    className='border-2 rounded-lg p-3 flex border-gray-300'
+                    type='number'
+                    name="Phone-number"
+                    id="phone_number"
+                    required
+                    autoComplete="off"
 
-          <textarea className="manualtextarea input-field" rows="5" cols="80" required autoComplete='off' placeholder={t('Tell Me about The Project' )}   name="Message"
-                                                id="name" ></textarea>
-        </div>
+                  />
+                </div> 
+                <div className='flex flex-col py-2'>
+                  <label className='uppercase text-sm py-2'>Enter your Message</label>
+                  <textarea
+                    className='border-2 rounded-lg p-3 border-gray-300'
+                    rows='10'
+                    name='message'
+                  ></textarea>
+                </div>
         <div class="button">
         <button className="glow-on-hover">{t('Submit')}</button>
         </div>
@@ -89,6 +88,17 @@ export const Contact = () =>{
 
     </div>
   </div>
+  <div className='flex justify-center py-12'>
+            <a href="#">
+              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <HiOutlineChevronDoubleUp
+                  className='text-[#5651e5]'
+                  size={30}
+                />
+              </div>
+            </a>
+        </div>
 </section> 
+
     )
 }

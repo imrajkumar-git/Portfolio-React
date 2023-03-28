@@ -7,7 +7,7 @@ import {About} from "./components/AboutMe/About";
 import React, { useState } from 'react';
 import {Education} from "./components/EducationMe/Education";
 import {Portfolio} from "./components/PortfolioMe/Portfolio";
-import {Contact} from "./components/ContactMe/Contact";
+import {Contact} from "./components/ContactMe/contact";
 import {Footer} from "./components/FooterMe/Footer";
 import {Blog} from "./components/blog/Blog";
 import { GlobalStyles } from "./components/HeaderMe/Globlestyle";

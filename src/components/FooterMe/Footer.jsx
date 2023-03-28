@@ -1,5 +1,6 @@
 import "./Footer.css"
 import { useTranslation} from 'react-i18next';
+import {FaLinkedinIn } from 'react-icons/fa';
 export const Footer = ()  =>{
  let date = new Date();
   let year = date.getFullYear();
@@ -52,15 +53,24 @@ export const Footer = ()  =>{
                                 </p>           
                                  <p style={{color:'white'}}>{t('Nepal, Kathmandu, Kalanki')}</p>
           </div>
-
+      
           <div class="icon flex1">
-           <a href="https://www.facebook.com/rajkumararyal0977"><i class="fab fa-facebook-f"></i></a>
-           <a href="https://www.instagram.com/rajkumar_aryal_official/"><i class="fab fa-instagram"></i></a>
-           <a href="https://www.youtube.com/channel/UCaA0IiwSQyhMLxLTJ_YoEZw">            <i class="fab fa-youtube"></i>
+      
+                  
+           <a href="https://www.facebook.com/rajkumararyal0977"><div className='rounded-full shadow-lg shadow-gray-400 p-7 cursor-pointer'>
+<i class="social-icon fa fa-facebook fa-2x"></i>
+</div></a>
+           <a href="https://www.instagram.com/rajkumar_aryal_official/">
+           <div className='rounded-full shadow-lg shadow-gray-400 p-7 cursor-pointer'>
+<i class="social-icon fa fa-instagram fa-2x"></i></div></a>
+           <a href="https://www.youtube.com/channel/UCaA0IiwSQyhMLxLTJ_YoEZw"><div className='rounded-full shadow-lg shadow-gray-400 p-7 cursor-pointer'>
+       <i class="social-icon fa fa-youtube"></i></div>
 </a>
-<a href="https://github.com/imrajkumar-git">            <i class="fab fa-git"></i>
+<a href="https://github.com/imrajkumar-git">                             <div className='rounded-full shadow-lg shadow-gray-400 p-7 cursor-pointer'>
+   <i class="social-icon fa fa-git"></i></div>
 </a>
-<a href="https://www.linkedin.com/in/rajkumar-aryal-38b43a233/">            <i class="fab fa-linkedin-in"></i>
+<a href="https://www.linkedin.com/in/rajkumar-aryal-38b43a233/"><div className='rounded-full shadow-lg shadow-gray-400 p-7 cursor-pointer'>
+<i class="social-icon fa fab fa-linkedin-in"></i></div>
 </a>
           </div>
         </div>
