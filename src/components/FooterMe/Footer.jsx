@@ -78,7 +78,7 @@ export const Footer = ()  =>{
 
       <div class="legal flex1">
         <div class="legal-box">
-        <a href="https://www.facebook.com/rajkumararyal0977"><p>{t('Design and Developed by Rajkumar Aryal')}</p></a> 
+       <p>{t('Design and Developed by Rajkumar Aryal')}</p>
         </div>
         {/* <div class="legal-box1">
           <p></p>
