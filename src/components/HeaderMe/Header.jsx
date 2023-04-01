@@ -15,7 +15,6 @@ import translate_es from '../../locales/es/translation.json'
 import translate_ne from '../../locales/ne/translation.json'
 const Button = styled.button`
 background-color: ${({ theme }) => theme.background};
-border: 2px solid ${({ theme }) => theme.background};
 color: ${({ theme }) => theme.text};
 width: 60px;
 height: 60px;
@@ -81,7 +80,7 @@ const { t } = useTranslation();
             <div className="header__container">
          <div className="dropitem">
          <Button className="toggle-button" onClick={toggleTheme} style={{'background-color':'oranged'}}>
-      {theme === "light" ? <Moon /> : <Sun />}
+      {theme === "light" ? <Moon />:<Sun/>}
     </Button >
          <img src={logo} alt="" className="logo"/>
          <select
