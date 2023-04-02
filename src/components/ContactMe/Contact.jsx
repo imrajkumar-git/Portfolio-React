@@ -32,7 +32,6 @@ export const Contact = () =>{
         {/* <div class="topic-text">Send us a message</div> */}
         <form class="mtop"  action="https://getform.io/f/adf100fd-4902-43e8-82c9-38203d1b0594" method="POST">
       
-                <div className='grid md gap-4 w-full py-2'>
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Enter your Full Name</label>
                     <input
@@ -58,7 +57,6 @@ export const Contact = () =>{
                                                 autoComplete='off'
                     />
                   </div>
-                </div>
                  <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Enter your Phone Number</label>
                   <input
