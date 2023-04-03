@@ -3,9 +3,9 @@ import client from '../Assets/client.svg'
 import cup from '../Assets/mug-hot-solid.svg'
 import years from '../Assets/years.svg'
 import project from '../Assets/projects.svg'
-import b1 from '../Assets/b1.webp'
-import b2 from '../Assets/b2.webp'
-import b3 from '../Assets/b3.webp'
+import b1 from '../Assets/Blogs/b1.webp'
+import b2 from '../Assets/Blogs/b2.webp'
+import b3 from '../Assets/Blogs/b3.webp'
 
 export const homeAbout = [
 

@@ -1,6 +1,6 @@
 import "./Header.css";
 import { CTA } from "./CTA"
-import logo from "../../Assets/rk.png";
+import logo from "../../Assets/Header/rk.png";
 import Sun from "./Sun";
 import Moon from "./Moon";
 import { useState, useEffect } from 'react';

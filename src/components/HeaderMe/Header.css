@@ -36,7 +36,7 @@ header {
 
 .hero {
     background-color: #7fa9af;
-    background: url('../../Assets/Home.png');
+    background: url('../../Assets/Header/Home.png');
     background-size: cover;
     background-attachment: fixed;
     /* position: absolute; */
