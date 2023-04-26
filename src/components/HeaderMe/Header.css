@@ -6,9 +6,10 @@
     font-family:monospace;
     text-transform: uppercase;
     font-weight: 900;
-    margin-top: -8rem;
     --tw-text-opacity: 1;
-    color: rgb(86 81 229)
+    color: rgb(86 81 229);
+    margin-left: -6rem;
+
 }
 
 .header__container h2{
@@ -17,6 +18,7 @@
     font-family: Raleway;
     color: rgb(55 65 81);
     opacity: 1;
+    margin-left: -6rem;
 }
 
 
@@ -85,13 +87,13 @@ header {
     } 
     
 .header__container h1{
-    font-size: 90px;
+    font-size: 80px;
     font-family:monospace;
     color: rgb(86 81 229);
     text-transform: uppercase;
     font-weight: 900;
-    margin-top: -2rem;
-    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
 
 }
 
@@ -101,6 +103,7 @@ header {
     font-stretch: extra-expanded;
     color: rgb(55 65 81);
     margin-left: 1rem;
+    margin-top: -1rem;
 }
 
 header {
@@ -269,13 +272,13 @@ header {
 .dropitem{
     display: flex;
     justify-content: space-between;
-    margin-top: -10rem;
+    margin-top: -7rem;
 }
 .dropitem select{
     height: 4rem;
     width: 5rem;
     color:black;
-    margin-top: 4rem;
+    margin-top: 1rem;
     font-size: 1.2rem;
     margin-right: 2rem;
     background-color: rgb(58, 206, 58);
@@ -298,7 +301,16 @@ header {
 }
 
 @media screen and (max-width : 600px) {
-
+    .dropitem select{
+        height: 4rem;
+        width: 5rem;
+        color:black;
+        margin-top: 4rem;
+        font-size: 1.2rem;
+        margin-right: 2rem;
+        background-color: rgb(58, 206, 58);
+    
+    }
     header {
         /* border: 1px solid; */
         height: 138vh;
@@ -311,7 +323,8 @@ header {
    display: none;
     }
     .logo{
-        width: 200px;
+        width: 180px;
+        margin-top: 3rem;
     }
  
     .cta {

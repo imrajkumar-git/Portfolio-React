@@ -1,65 +1,206 @@
-nav {
-    width: max-content;
-    display: block;
-    padding: 0.7rem 1.7rem;
-    z-index: 2;
+/*=============== GOOGLE FONTS ===============*/
+
+/*=============== VARIABLES CSS ===============*/
+
+/*=============== BASE ===============*/
+
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+
+/*=============== HEADER ===============*/
+.header {
     position: fixed;
-    left: 48%;
-    transform: translateX(-50%);
-    bottom: 0rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--container-color);
+    z-index: var(--z-fixed);
+    transition: .4s;
+  }
+/*=============== NAV ===============*/
+.nav {
+  height: 2rem;
+  margin-top: 4rem;
+  align-items: center;
+  font-size: 1rem;
+ 
+}
+.nav__list{
+   
+    justify-content: center;
     display: flex;
-    gap: 0.8rem;
-    border-radius: 3rem;
+}
+.nav__list a{
+    display: flex;
+}
+.nav__img {
+  width: 32px;
+  border-radius: 50%;
+}
+
+.nav__logo {
+  color: var(--title-color);
+  font-weight: 600;
+}
+.nav__link{
+    display: flex;
+}
+@media screen and (max-width: 767px) {
+  .nav__menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: var(--container-color);
+    box-shadow: 0 -1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+    width: 100%;
+    height: 4rem;
+    padding: 0 1rem;
+    display: grid;
+    align-content: center;
+    border-radius: 1.25rem 1.25rem 0 0;
+    transition: .4s;
+  }
+}
+
+.nav__link{
+    display: flex;
+
+}
+.nav__link {
+  flex-direction: row;
+  align-items: center;
+  row-gap: 4px;
+  color: var(--title-color);
+  font-weight: 600;
+}
+
+.nav__list {
+  justify-content: space-around;
+  font-size: 1rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  
+}
+
+.nav__name {
+  font-size: var(--tiny-font-size);
+  /* display: none;*/ /* Minimalist design, hidden labels */
+}
+
+.nav__icon {
+  font-size: 1.5rem;
+}
+
+/*Active link*/
+.active-link {
+  position: relative;
+  color: green;
+  transition: .3s;
+}
+
+/* Minimalist design, active link */
+/* .active-link::before{
+  content: '';
+  position: absolute;
+  bottom: -.5rem;
+  width: 4px;
+  height: 4px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+} */
+
+/* Change background header */
+.scroll-header {
+  box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+}
+
+/*=============== MEDIA QUERIES ===============*/
+/* For small devices */
+/* Remove if you choose, the minimalist design */
+@media screen and (max-width: 570px) {
+  .nav__name {
+    display: none;
+  }
+  .nav__list{
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  border-radius: 3rem;
+  background-color: rgb(198, 214, 214);
+  bottom: 0;
+  display: none;
+  display: block;
+  gap: 3.5rem;
+  font-size: 1.3rem;
+  left: 48%;
+  padding: 0.7rem 1.7rem;
+  position: fixed;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: -webkit-max-content;
+  width: max-content;
+  z-index: 2;
+  display: flex;
+  
+}
+}
+
+/* For medium devices */
+@media screen and (min-width: 576px) {
+  .nav__list {
+    justify-content: center;
+    column-gap: 3rem;
+  }
+  .nav__list i{
     backdrop-filter: blur(15px);
+    border-radius: 3rem;
+  }
 }
 
-nav a {
-    background: transparent;
+@media screen and (min-width: 767px) {
+  body {
+    margin: 0;
+  }
+  .section {
+    padding: 7rem 0 2rem;
+  }
+  .nav {
+    height:4.5rem; /* 4.5rem */
+  }
+  .nav__img {
+    display: none;
+  }
+  .nav__icon {
+    display: none;
+  }
+  .nav__name {
+    font-size: var(--normal-font-size);
+    /* display: block; */ /* Minimalist design, visible labels */
+  }
+  .nav__link:hover {
+    color: var(--first-color);
+  }
+
+  /* First design, remove if you choose the minimalist design */
+  .active-link::before {
+    content: '';
+    position: absolute;
+    bottom: -.75rem;
+    width: 4px;
+    height: 4px;
+    background-color: var(--first-color);
     border-radius: 50%;
-    display: flex;
-    color: var(--color-dark);
-    font-size: 1.1rem;
-    padding: .9rem;
-
-}
-@media screen and (min-width : 624px) {
-    nav{  
-      display: none;
-      width: max-content;
-      display: block;
-      padding: 0.7rem 1.7rem;
-      z-index: 2;
-      position: fixed;
-      left: 48%;
-      transform: translateX(-50%);
-      bottom: r0;
-      display: flex;
-      gap: 0.8rem;
-      border-radius: 3rem;
-      backdrop-filter: blur(15px);
-    }
-    nav a {
-      background: transparent;
-      border-radius: 50%;
-      display: flex;
-      color: var(--color-dark);
-      font-size: 1.2rem;
-      padding: .6rem;
-  
-      
   }
+
+  /* Minimalist design */
+  /* .active-link::before{
+      bottom: -.75rem;
+  } */
+}
+
+/* For large devices */
+@media screen and (min-width: 1024px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
   }
-  
-
-
-
-nav a:hover {
-    background: rgba(0, 0, 0, 0.4);
 }
-
-nav a.active {
-    
-    background: var(--color-primary);
-    color: var(--color-bg);
-}
-  

@@ -21,7 +21,7 @@ const App = () => {
   // Simulate content loading
   setTimeout(() => {
     setLoading(false);
-  }, 3000);
+  }, 1000);
 
   return (
     <div className="waterfall-container">
@@ -38,7 +38,7 @@ const App = () => {
     <div class="loading__letter">.</div>
     <div class="loading__letter">.</div>
   </div> :<>
-     <Navbar />  <ThemeProvider theme={themeMode} toggleTheme={themeToggler}>
+    <ThemeProvider theme={themeMode} toggleTheme={themeToggler}>
           <GlobalStyles />
           <Toggle theme={theme} toggleTheme={themeToggler} />
         </ThemeProvider><About /><Education /><Portfolio /><Blog/> <Contact /> <Footer /> 

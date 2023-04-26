@@ -1,8 +1,15 @@
 import "./Header.css";
 import { CTA } from "./CTA"
-import logo from "../../Assets/Header/rk.png";
+import "../NavbarMe/Navbar.css";
+import logo from "../../Assets/Header/without bg.png";
 import Sun from "./Sun";
 import Moon from "./Moon";
+import { AiOutlineHome, AiOutlineSkin } from "react-icons/ai";
+import { AiOutlineUser } from "react-icons/ai";
+import { BiBookBookmark } from "react-icons/bi";
+import { RiServiceLine } from "react-icons/ri";
+import { AiFillMessage } from "react-icons/ai";
+import {MdWorkspacesFilled } from "react-icons/md"
 import { useState, useEffect } from 'react';
 import { useTranslation} from 'react-i18next';
 import { TypeAnimation } from 'react-type-animation';
@@ -83,6 +90,54 @@ const { t } = useTranslation();
       {theme === "light" ? <Moon />:<Sun/>}
     </Button >
          <img src={logo} alt="" className="logo"/>
+         <nav class="nav">
+           
+           <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                   <li class="nav__item">
+                       <a href="#home" class="nav__link active-link">
+                       
+                           <span class="nav__name">Home </span>
+                           <i><AiOutlineHome/></i>
+                       </a>
+                   </li>
+                   
+                   <li class="nav__item">
+                       <a href="#about" class="nav__link">
+                           <i class='bx bx-user nav__icon'></i>
+                           <span class="nav__name">About</span>
+                           <i><AiOutlineUser/></i>
+                       </a>
+                   </li>
+
+                   <li class="nav__item">
+                       <a href="#skills" class="nav__link">
+                           <i class='bx bx-book-alt nav__icon'></i>
+                           <span class="nav__name">Skills</span>
+                          <i><AiOutlineSkin/></i>
+                       </a>
+                   </li>
+
+                   <li class="nav__item">
+                       <a href="#portfolio" class="nav__link">
+                           <i class='bx bx-briefcase-alt nav__icon'></i>
+                           <span class="nav__name">Portfolio</span>
+                           <i><AiOutlineUser/></i>
+                       </a>
+                   </li>
+
+                   <li class="nav__item">
+                       <a href="#contactme" class="nav__link">
+                           <i class='bx bx-message-square-detail nav__icon'></i>
+                           <span class="nav__name">Contact</span>
+                           <i><AiOutlineUser/></i>
+                       </a>
+                   </li>
+               </ul>
+           </div>
+
+           
+       </nav>
          <select
                             className="custom-btn btn"
                             style={{  "borderRadius": "none", "webkitAppearance": "none" }}

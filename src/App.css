@@ -184,28 +184,14 @@
 }
 
 
-.waterfall-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 
-}
-
-.waterfall-item {
-  width: 300px;
-  margin: 20px;
-  padding: 20px;
-  background-color: #d31c1c;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
 
 .loading {
   display: flex;
   flex-direction: row;
+  margin-left: 20rem;
+
 }
 
 .loading__letter {
@@ -218,6 +204,8 @@
   animation-name: bounce;
   animation-duration: 2s;
   animation-iteration-count: infinite;
+  margin-top: 20rem;
+  margin-left: 4rem;
 }
 
 .loading__letter:nth-child(2) {
@@ -272,7 +260,10 @@
 
 @media screen and (max-width : 600px) {
   .loading__letter {
-    font-size: 48px;
+    margin-top: 20rem;
+    font-size: 38px;
+    text-align: center;
+    margin-left: 1rem;
     font-weight: normal;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -282,4 +273,13 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
   }
+  
+
+.loading {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+
+}
+
 }
