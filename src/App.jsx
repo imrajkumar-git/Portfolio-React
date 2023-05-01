@@ -24,28 +24,28 @@ const App = () => {
   }, 1000);
 
   return (
-    <div className="waterfall-container">
-    <div className="app">
-      {loading ?   <div class="loading"> 
-    <div class="loading__letter">L</div>
-    <div class="loading__letter">o</div>
-    <div class="loading__letter">a</div>
-    <div class="loading__letter">d</div>
-    <div class="loading__letter">i</div>
-    <div class="loading__letter">n</div>
-    <div class="loading__letter">g</div>
-    <div class="loading__letter">.</div>
-    <div class="loading__letter">.</div>
-    <div class="loading__letter">.</div>
-  </div> :<>
-    <ThemeProvider theme={themeMode} toggleTheme={themeToggler}>
+  //   <div className="waterfall-container">
+  //   <div className="app">
+  //     {loading ?   <div class="loading"> 
+  //   <div class="loading__letter">L</div>
+  //   <div class="loading__letter">o</div>
+  //   <div class="loading__letter">a</div>
+  //   <div class="loading__letter">d</div>
+  //   <div class="loading__letter">i</div>
+  //   <div class="loading__letter">n</div>
+  //   <div class="loading__letter">g</div>
+  //   <div class="loading__letter">.</div>
+  //   <div class="loading__letter">.</div>
+  //   <div class="loading__letter">.</div>
+  // </div> :
+  <>
+   <ThemeProvider theme={themeMode} toggleTheme={themeToggler}>
           <GlobalStyles />
           <Toggle theme={theme} toggleTheme={themeToggler} />
         </ThemeProvider><About /><Education /><Portfolio /><Blog/> <Contact /> <Footer /> 
-</>}
-    </div>
-    </div>
-  
+   
+  </>
+   
   );
 };
 export default App;

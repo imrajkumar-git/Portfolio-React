@@ -404,10 +404,8 @@
 
 }
 .timeline1 {
-  position: relative;
   width: 50%;
     overflow: hidden;
-    position: relative;
     padding: 15px 30px;
     background: linear-gradient(var(--color-primary), transparent);
     border-radius: var(--border-radius-medium);
@@ -651,7 +649,6 @@
       font-weight: 900;
     }
     .timeline {
-      position: relative;
       width: 100%;
       border: 1px solid #e9eaeb;
         border: 1px solid var(--border-color);
@@ -663,10 +660,8 @@
     
     }
     .timeline1 {
-      position: relative;
       width: 100%;
         overflow: hidden;
-        position: relative;
         padding: 15px 30px;
         background: linear-gradient(var(--color-primary), transparent);
         border-radius: var(--border-radius-medium);
@@ -677,7 +672,6 @@
   }
   @media screen and (max-width: 1068px) {
     .timeline {
-      position: relative;
       width: 100%;
       border: 1px solid #e9eaeb;
         border: 1px solid var(--border-color);
@@ -689,11 +683,9 @@
     
     }
     .timeline1 {
-      position: relative;
       width: 100%;
       height: fit-content;
         overflow: hidden;
-        position: relative;
         padding: 15px 30px;
         background: linear-gradient(var(--color-primary), transparent);
         border-radius: var(--border-radius-medium);
@@ -724,7 +716,6 @@
       font-weight: 900;
     }
      .timeline {
-      position: relative;
       width: 100%;
       border: 1px solid #e9eaeb;
         border: 1px solid var(--border-color);
@@ -737,11 +728,9 @@
     
     }
     .timeline1 {
-      position: relative;
       width: 100%;
       height:27rem ;
         overflow: hidden;
-        position: relative;
         padding: 15px 30px;
         background: linear-gradient(var(--color-primary), transparent);
         border-radius: var(--border-radius-medium);
@@ -753,11 +742,9 @@
   @media screen and (max-width: 380px) {
 
     .timeline1 {
-      position: relative;
       width: 100%;
       height:27rem ;
         overflow: hidden;
-        position: relative;
         padding: 15px 30px;
         background: linear-gradient(var(--color-primary), transparent);
         border-radius: var(--border-radius-medium);
