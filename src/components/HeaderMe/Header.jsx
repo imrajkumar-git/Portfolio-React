@@ -156,9 +156,9 @@ const { t } = useTranslation();
                 </div>
                 <TypeAnimation
       sequence={[
-        'Full Stack Developer', // Types 'One'
+        'Video Creator', // Types 'One'
         2000, // Waits 1s
-        'React Developer', // Deletes 'One' and types 'Two'
+        'Backend Developer', // Deletes 'One' and types 'Two'
         2000, // Waits 2s
         'App Designer', // Types 'Three' without deleting 'Two'
         () => {

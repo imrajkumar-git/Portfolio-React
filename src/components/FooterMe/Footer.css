@@ -445,6 +445,7 @@ footer .legal {
   /*---------about--------*/
   .about .container {
     flex-direction: column;
+    
   }
 
   .heading h2 {
@@ -534,6 +535,11 @@ footer .legal {
 @media only screen and (max-width:811px) {
   .heading h2 {
     font-size: 24px;
+  }
+  .about .container {
+    flex-direction: column;
+    margin-right: 0rem;
+    
   }
 
   .heading h3 {

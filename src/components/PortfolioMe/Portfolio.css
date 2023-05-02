@@ -87,4 +87,13 @@
     color: rgba(103, 15, 234, 0.883);
 
   }
+ 
+}
+@media screen and (max-width: 668px){
+  .price .items {
+    padding: 40px;
+    text-align: center;
+    margin-right: -3rem;
+
+  }
 }

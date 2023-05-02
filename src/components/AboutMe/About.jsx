@@ -107,7 +107,7 @@ export const About = ({}) =>{
   
       </div>
       </section>
-      <div className="container container2 about__container">
+      <div className="container2 about__container">
             
             <div className="about__content" >
                        

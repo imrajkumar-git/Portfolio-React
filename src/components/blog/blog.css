@@ -76,6 +76,7 @@
   }
   .shadow {
     box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+    margin-right: -3rem;
   }
   .blog span {
     text-transform: uppercase;
